@@ -4,16 +4,16 @@
   
 ### 这个API是在聚合数据上进行实名验证后得到的一个免费API，后面的key值是获取数据后的。我的key值：ec7572c9e7f97abc00cf8b135022f9a2
 ### type值
-  * 头条 -- top
-  * 社会 -- shehui
-  * 国内 -- guonei
-  * 国际 -- guoji
-  * 娱乐 -- yule
-  * 体育 -- tiyu
-  * 军事 -- junshi
-  * 科技 -- keji
-  * 财经 -- caijing
-  * 时尚 -- shishang
+* 头条 -- top
+* 社会 -- shehui
+* 国内 -- guonei
+* 国际 -- guoji
+* 娱乐 -- yule
+* 体育 -- tiyu
+* 军事 -- junshi
+* 科技 -- keji
+* 财经 -- caijing
+* 时尚 -- shishang
   
 ## 在开发过程中，利用了wxml和wxss的引用，所以创建了public文件
 
