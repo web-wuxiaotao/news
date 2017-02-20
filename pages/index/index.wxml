@@ -1,0 +1,13 @@
+<include src="../public/public.wxml"/>
+<view class="news">
+    <view class="news_list" wx:for="{{news}}">
+        <view class="title">{{item.title}}</view>
+        <view class="img">
+            <image src="{{item.thumbnail_pic_s}}"></image>        
+        </view>
+        <view class="date_author">
+            <view class="date">{{item.date}}</view>
+            <view class="author">{{item.author_name}}</view>
+        </view>
+    </view>
+</view>

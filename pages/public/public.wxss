@@ -1,0 +1,27 @@
+page{
+    font-family: "微软雅黑";
+}
+.header{
+    height: 100rpx;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header .lists{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100rpx;
+    width: 1250rpx;
+    overflow: hidden;
+    background: red;
+}
+.header .lists .list{
+    float: left;
+    width: 125rpx;
+    font-size: 40rpx;
+    text-align: center;
+    line-height: 100rpx;
+    color: #f0f0f0;
+}

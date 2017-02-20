@@ -1,0 +1,7 @@
+<view class="header">
+    <view class="lists" style="left:{{left}}rpx;" bindtouchmove="touch" bindtouchstart="start">
+        <view class="list" wx:for="{{lists}}" data-index="{{index}}" bindtap="click" style="color:{{col}};">
+            {{item.name}}
+        </view>
+    </view>
+</view>
