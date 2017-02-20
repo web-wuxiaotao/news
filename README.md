@@ -19,7 +19,8 @@
 
 * 新闻头部的导航条
 
-  ### 利用touchmove和toushstart事件，获取按下后的初始位置和结束位置，改变导航条的位置。代码如下：
+  
+  ### 利用touchmove和toushstart事件，获取按下后的初始位置和结束位置，改变导航条的位置。代码如下：
   
          touch:function(e){
            var last=e.touches[0].pageX
@@ -46,4 +47,5 @@
            })
          }   
       
+      
 ## 由于获取的API只有首页新闻列表，所以没有进行后续处理
