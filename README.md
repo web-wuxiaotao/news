@@ -1,6 +1,7 @@
 # 微信小程序 新闻 news
 ## 用到的API
 * http://v.juhe.cn/toutiao/index?type={}&key={获取的key值}
+  
 ### 这个API是在聚合数据上进行实名验证后得到的一个免费API，后面的key值是获取数据后的。我的key值：ec7572c9e7f97abc00cf8b135022f9a2
 ### type值
   * 头条 -- top
